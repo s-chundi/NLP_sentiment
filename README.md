@@ -1,1 +1,2 @@
 # NLP_sentiment
+This notebook takes in tweets and classifies them as disasters or not disasters.Tweets are tokenized, then embeddings are created with the tensorflow embeddings layer. These embeddings can be trained/changed. The embeddings layer takes in a sequence of ints and learns relationships between the words that these ints represent. They are then passed through an LSTM layer and a few Dense layers. L2 regularization and Dropout were used to prevent overfitting. 
